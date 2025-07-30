@@ -1,0 +1,12 @@
+# Template file for 'iwmenu'
+pkgname=iwmenu
+version=0.2.0
+revision=1
+build_style=cargo
+depends="iwd"
+short_desc="Launcher-driven Wi-Fi manager for Linux"
+maintainer="Yushi <github@yushi.one>"
+license="GPL-3.0-or-later"
+homepage="https://github.com/e-tho/iwmenu"
+distfiles="https://github.com/e-tho/iwmenu/archive/refs/tags/v${version}.tar.gz"
+checksum=7be3ce6c2cddd3bc5fef7a0ca935fba0490b8e621e2e8188b4e88a85af1c8351
